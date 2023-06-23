@@ -1,0 +1,193 @@
+{
+  "medicine": [ 
+	
+     { 
+        "name":"Betacap TR 40", 
+        "desc": "Propranolol prolonged-release Capsules IP", 
+        "price": "34.80" ,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2021/3/IM/XE/PZ/12931111/betacap-tr-40-pharmaceutical-capsules-500x500.jpg",
+        "usage": "Betacap TR 40 is used to treat high blood pressure (hypertension), angina (chest pain), and tremors. It belongs to a class of medications called beta blockers and helps in relaxing blood vessels, reducing heart rate, and improving blood flow."
+
+     }, 
+	
+     { 
+        "name":"Isograce 10", 
+        "desc": "Isotretinoin (micronized) Tablets", 
+        "price": "106.60" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/992504/isograce_10_tablet_10s_0_1.jpg",
+        "usage": "Isograce 10 is a medication used for the treatment of severe acne that has not responded to other treatments. It belongs to a class of drugs called retinoids and works by reducing the production of facial oil and preventing the formation of acne."
+
+     },
+
+     { 
+        "name":"Dolo 650 Tablets 15'S", 
+        "desc": "Paracetamol Tablets IP", 
+        "price": "24.52" ,
+        "image": "https://www.practostatic.com/practopedia-images/v3/res-750/dolo-650mg-tablet-cold-cough-covid-essentials-15-s_6fbd3435-bffd-428d-9288-ec74ad6a94ef.JPG",
+        "usage": "Dolo 650 is a commonly used over-the-counter pain reliever and fever reducer. It contains paracetamol (acetaminophen) as its active ingredient and helps in relieving mild to moderate pain and reducing fever."
+
+     },
+
+     { 
+        "name":"Seridon Headache Relief Tablets 10'S", 
+        "desc": "Propyphenazone, Paracetamol and Caffine Tablets", 
+        "price": "34.69" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/109486/saridon_headache_relief_tablet_10s_663469_0_0.jpg",
+        "usage": "Seridon Headache Relief Tablets are used to provide relief from headaches and migraines. It contains a combination of propyphenazone, paracetamol, and caffeine that work together to alleviate pain and promote relaxation."
+
+     },
+
+     { 
+        "name":"Tretiva 20mg Capsules 10'S", 
+        "desc": "Isotretinoin Capsules IP 20mg", 
+        "price": "188.60" ,
+        "image": "https://www.practostatic.com/practopedia-images/v3/res-750/tretiva-20mg-capsule-10-s_df5d68ad-0d4c-487c-ba8d-33599db056d4.JPG",
+        "usage": "Tretiva 20mg Capsules are used for the treatment of severe acne that has not responded to other treatments. It contains isotretinoin as its active ingredient and works by reducing the production of facial oil and preventing the formation of acne."
+
+     },
+
+     { 
+        "name":"Combiflam Tablets 20'S", 
+        "desc": "Ibuprofen and Paracetamol Tablets I.P.", 
+        "price": "37.36" ,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2021/5/TU/FJ/GH/40528257/1-39--500x500.jpeg",
+        "usage": "Zocon 150mg Tablets are used to treat fungal infections, including yeast infections of the mouth, throat, esophagus, abdomen, lungs, blood, and other organs. It contains fluconazole as its active ingredient and works by stopping the growth of fungi."
+
+     },
+
+     { 
+        "name":"Forxiga 10mg Tablets 14'S", 
+        "desc": "Dapagliflozin Tablets", 
+        "price": "378.84" ,
+        "image": "https://www.kauverymeds.com/uploads/product/main/1652695478_133933_0.jpg",
+        "usage": "Omez 20mg Capsules are used to treat certain stomach and esophagus problems, such as acid reflux, ulcers, and gastroesophageal reflux disease (GERD). It belongs to a class of medications called proton pump inhibitors and helps in reducing the amount of acid produced in the stomach."
+
+     },
+
+     { 
+        "name":"VB7 Hair 10'S", 
+        "desc": "Biotin Acids, Vitamins, Minerals & Grape Seed Extract Tablets", 
+        "price": "155.80" ,
+        "image": "https://egmedi.com/wp-content/uploads/2020/12/EG7778.jpg",
+        "usage": "Allegra 120mg Tablets are used to relieve symptoms of seasonal allergic rhinitis (hay fever) such as sneezing, runny or itchy nose, and itchy or watery eyes. It contains fexofenadine hydrochloride as its active ingredient and works by blocking histamine, a substance in the body that causes allergic symptoms."
+
+     },
+
+     { 
+        "name":"VB7 Forte Capsule 10'S", 
+        "desc": "Vitamins, Biotin, Inositol, Lysine and Minerals Capsules", 
+        "price": "133.66" ,
+        "image": "https://images.apollo247.in/pub/media/catalog/product/V/B/VB70002_1_1.jpg",
+        "usage": "Calpol 650mg Tablets are used for the relief of pain and fever associated with conditions such as headaches, toothaches, colds, and flu. It contains paracetamol (acetaminophen) as its active ingredient and works by blocking the production of certain chemicals in the brain that cause pain and fever."
+
+     },
+
+     { 
+        "name":"Azee 250mg Tablet 10'S", 
+        "desc": "Azithromycin Tablets IP 250mg", 
+        "price": "95.42" ,
+        "image": "https://m.media-amazon.com/images/I/51vm8McGX6L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+        "usage": "Dulcolax 5mg Gastro-resistant Tablets are used to relieve occasional constipation. It contains bisacodyl as its active ingredient and works by stimulating the muscles of the intestine to promote bowel movement."
+
+     },
+
+     { 
+        "name":"Azee 500mg Tablets 3'S", 
+        "desc": "Azithromycin Tablets IP 500mg", 
+        "price": "57.91" ,
+        "image": "https://images.apollo247.in/pub/media/catalog/product/a/z/aze0004.png",
+        "usage": "Crocin Pain Relief Tablets are used for the temporary relief of mild to moderate pain, including headache, toothache, muscle pain, and menstrual cramps. It contains paracetamol (acetaminophen) as its active ingredient and works by increasing the pain threshold and reducing fever."
+
+     },
+
+     { 
+        "name":"Ecosprin 75mg", 
+        "desc": "aspirin gastro-resistant tablets IP 75mg.", 
+        "price": "4.37" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/42323/ecosprin_75_tablet_14s_34914_0_3.jpg",
+        "usage": "Livogen-Z Captab is a multivitamin and mineral supplement used to treat or prevent iron deficiency anemia. It contains iron, folic acid, vitamin C, and zinc as its active ingredients and helps in replenishing the body's iron stores and supporting red blood cell production."
+
+     },
+
+     { 
+        "name":"MOX 500mg capsule 15�S", 
+        "desc": "Amoxycillin trihydrate Capsules IP", 
+        "price": "90.36" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/380646/mox_500mg_capsule_15s_45747_0_1.jpg",
+        "usage": "Cetirizine 10mg Tablets are used to relieve symptoms of allergic conditions such as hay fever, allergic rhinitis, and hives. It contains cetirizine hydrochloride as its active ingredient and works by blocking the action of histamine, a substance in the body that causes allergic symptoms."
+
+     },
+
+     { 
+        "name":"ometab 20Mg tablet 10�s", 
+        "desc": "omeprazole magnesium delayed released tablets 20mg", 
+        "price": "35.56" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/398784/ometab_20mg_tablet_10_s_0.jpg",
+        "usage": "Chymoral Forte Tablets are used to reduce pain and inflammation associated with various conditions such as sprains, strains, fractures, joint disorders, and surgeries. It contains trypsin and chymotrypsin as its active ingredients and works by breaking down proteins to reduce swelling and promote healing."
+
+     },
+
+     { 
+        "name":"Glycomet-GP 1 Tablet - 15's", 
+        "desc": "Metformin hydrochloride prolonged release and glimepiride tablets ip", 
+        "price": "100.04" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/800075/glycomet_gp_1mg_tablet_15s_55824_0_1.jpg",
+        "usage": "Combiflam Plus Tablet is used to relieve pain and reduce inflammation in conditions such as headache, toothache, menstrual cramps, muscle aches, and arthritis. It contains a combination of ibuprofen and paracetamol (acetaminophen) that work together to provide dual-action pain relief."
+
+     },
+
+     { 
+        "name":"Atorlip 10mg Tablet - 10's", 
+        "desc": "Atorvastatin Tablets", 
+        "price": "60.34" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/113750/atorlip_10mg_tablet_15_s_0.jpg",
+        "usage": "Zocon 50mg Capsules are used to treat fungal infections, including vaginal yeast infections and oral thrush. It contains fluconazole as its active ingredient and works by stopping the growth of fungi."
+
+     },
+
+     { 
+        "name":"Montair LC Tablet - 10's", 
+        "desc": "Montelukast Sodium and levocetirizine hydrochloride Tablets IP", 
+        "price": "275.88" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/904587/montair_lc_tablet_15s_129377_0_2.jpg",
+        "usage": "Pantocid DSR Capsules are used to treat gastroesophageal reflux disease (GERD) and other conditions caused by excess stomach acid. It contains a combination of pantoprazole and domperidone that work together to reduce the production of acid in the stomach and improve digestion."
+
+     },
+
+     { 
+        "name":"Losacar 50mg Tablet - 10's", 
+        "desc": "Losartan Potassium Tablets", 
+        "price": "72.02" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/41588/losacar_50mg_tablet_10_s_0.jpg",
+        "usage": "Zinetac 150mg Tablets are used to treat and prevent ulcers in the stomach and intestines. It contains ranitidine as its active ingredient and works by reducing the amount of acid produced in the stomach."
+
+     },
+
+     { 
+        "name":"Medrol 4mg Tablet - 10's", 
+        "desc": "Methylprednisolone Tablets", 
+        "price": "43.12" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/44733/medrol_4mg_tablet_10s_0_1.jpg",
+        "usage": "Gelusil MPS Liquid is used to relieve symptoms of acidity, heartburn, and indigestion. It contains a combination of aluminium hydroxide, magnesium hydroxide, and simethicone that work together to neutralize excess stomach acid and relieve gas and bloating."
+
+     },
+
+     { 
+        "name":"Pan 40mg Tablet - 15's", 
+        "desc": "Pantoprazole Gastro resistant Tablets IP", 
+        "price": "127.10" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/404306/pan_40mg_tablet_15s_48053_0_2.jpg",
+        "usage": "Digene Tablet is used to relieve symptoms of acidity, heartburn, and indigestion. It contains a combination of calcium carbonate and magnesium hydroxide that work together to neutralize excess stomach acid and provide quick relief."
+
+     },
+
+     { 
+        "name":"Simvotin 10mg Tablet - 10's", 
+        "desc": "Simvastatin Tablets IP", 
+        "price": "128.74" ,
+        "image": "https://www.netmeds.com/images/product-v1/600x600/333606/simvotin_10mg_tablet_10s_40870_0_1.jpg",
+        "usage": "Ascoril LS Syrup is used to relieve cough associated with respiratory conditions such as bronchitis, asthma, and common cold. It contains a combination of levosalbutamol, ambroxol, and guaifenesin that work together to alleviate cough, loosen mucus, and make breathing easier."
+
+     }
+  ]   
+}
