@@ -1,9 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
-export default function ChatBot() {
+export default function ChatBot(props) {
+  const chatBotUrl_1 = `https://webchat.botframework.com/embed/healthbot1234-bot?s=${props.key1}`
+  const chatBotUrl_2 = `https://webchat.botframework.com/embed/healthbot1234-bot?s=${props.key2}`
+
+  const [isKey1Working, setIsKey1Working] = useState(false);
+  useEffect(() => {
+    const checkKeyStatus = async () => {
+      try {
+        const response = await fetch(chatBotUrl_1);
+        if (response.ok) {
+          setIsKey1Working(true);
+        } else {
+          setIsKey1Working(false);
+        }
+      } catch (error) {
+        setIsKey1Working(false);
+      }
+    };
+
+    checkKeyStatus();
+  }, []);
   return (
-    <div>
-        <iframe src="https://webchat.botframework.com/embed/healthbot12-bot?s=911aa4355b7444d0b38bb216817c02f5" style={{height: '502px', maxHeight: '502px'}}></iframe>
+    <div className='chatBot-container'>
+      <h3>HEALTH SENSE CHAT-BOT</h3>
+      {isKey1Working ? (
+        <iframe className='chatBot'
+          src={chatBotUrl_1}
+        ></iframe>
+      ) : (
+        <iframe className='chatBot'
+          src={chatBotUrl_2}
+        ></iframe>
+      )}
     </div>
   )
 }

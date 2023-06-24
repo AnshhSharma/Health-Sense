@@ -8,27 +8,27 @@ export default function Reviews() {
                 <figure className="snip1533">
                     <figcaption>
                         <blockquote>
-                            <p>If you do the job badly enough, sometimes you don't get asked to do it again.</p>
+                            <p>Professional and efficient! I've visited this lab multiple times, and each time I've experienced top-notch service. The staff is courteous, the facility is well-maintained, and the lab technicians are skilled. Their commitment to accuracy and timeliness sets them apart. Highly recommended for reliable diagnostic testing.</p>
                         </blockquote>
-                        <h3>Wisteria Ravenclaw</h3>
+                        <h3>Aarav Patel</h3>
                         <h4>Google Inc.</h4>
                     </figcaption>
                 </figure>
                 <figure className="snip1533">
                     <figcaption>
                         <blockquote>
-                            <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                            <p>Exceptional lab services! I recently had some tests done at this lab, and I'm thoroughly impressed. Their state-of-the-art equipment and knowledgeable technicians ensured accurate results. The lab's attention to detail and commitment to quality make them my top choice for all my diagnostic needs.</p>
                         </blockquote>
-                        <h3>Ursula Gurnmeister</h3>
+                        <h3>Niharika Singh</h3>
                         <h4>Facebook</h4>
                     </figcaption>
                 </figure>
                 <figure className="snip1533">
                     <figcaption>
                         <blockquote>
-                            <p>The only skills I have the patience to learn are those that have no real application in life. </p>
+                            <p>A one-stop-shop for all my healthcare needs! This medical store has an extensive range of medicines, and their prices are competitive. The staff is friendly and knowledgeable, always ready to assist. From prescriptions to over-the-counter items, they have it all. Convenient and reliable service!</p>
                         </blockquote>
-                        <h3>Ingredia Nutrisha</h3>
+                        <h3>Arjun Sharma</h3>
                         <h4>Twitter</h4>
                     </figcaption>
                 </figure>

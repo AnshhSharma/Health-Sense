@@ -31,7 +31,7 @@ export default function Navbar() {
                                 <Link className="nav-Link" aria-current="page" to="/medicines" onClick={moveToTop}>Medicines</Link>
                             </li>
                             <li className="nav-item mx-3">
-                            <Link className="nav-Link" aria-current="page" to="/labtest" onClick={moveToTop}>Lab Test</Link>
+                                <Link className="nav-Link" aria-current="page" to="/labtest" onClick={moveToTop}>Lab Test</Link>
                             </li>
                             <li className="nav-item mx-3">
                                 <Link className="nav-Link" aria-current="page" to="/chatbot" onClick={moveToTop}>Chat Bot</Link>
@@ -41,10 +41,10 @@ export default function Navbar() {
                             <li className="nav-item mx-3">About Us</li>
                             <li className="nav-item mx-3" onClick={moveToDown}>Contact Us</li>
                             {!isAuthenticated ?
-                                <li className="nav-item mx-3" onClick={() => loginWithRedirect()}>Log In</li>
+                                <button className="btn btn-primary mx-3" role="button " onClick={() => loginWithRedirect()}>Log In</button>
                                 :
                                 <>
-                                    <li className="nav-item mx-3" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</li>
+                                    <button className="btn btn-primary mx-3" role="button " onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
                                     <Link className="nav-Link" aria-current="page" to="/profile" onClick={moveToTop}><span>{user.name}</span><i className="fa-solid fa-user"></i></Link>
                                 </>
                             }
