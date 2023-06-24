@@ -159,6 +159,12 @@ i{
   margin: 0 0 20px;
 }
 
-
-/* Demo purposes only */
-
+.tests{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5vh 10vw;
+}
+.tests h3{
+  width: fit-content;
+  margin: 10px auto;
+}

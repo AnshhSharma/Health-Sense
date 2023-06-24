@@ -1,0 +1,59 @@
+{
+  "labtest": [ 
+	
+     { 
+        "name":"Complete Blood Count Test",  
+        "price": "200", 
+        "image": "https://www.ayushkamahealthcare.com/images/cbc-test.jpg"
+     }, 
+	
+     { 
+        "name":"Renal Function Test", 
+        "price": "300", 
+        "image": "https://www.netmeds.com/images/cms/wysiwyg/blog/2021/02/1613467292_898x450_option.jpg"
+     },
+
+     { 
+        "name":"Liver Function Test",  
+        "price": "350", 
+        "image": "https://prestigeer.com/wp-content/uploads/2023/03/what-to-know-about-liver-function-tests-1024x663.jpg"
+     },
+
+     { 
+        "name":"Lipid Profile Test", 
+        "price": "600", 
+        "image": "https://biocityhealthcare.com/wp-content/uploads/2023/02/lipid-test.jpg"
+     },
+
+     { 
+        "name":"Urine Complete Test", 
+        "price": "250",
+        "image": "https://www.miragelab.in/shop/38-thickbox_default/complete-urine-examination.jpg"
+     },
+
+     { 
+        "name":"Covid test",  
+        "price": "900", 
+        "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/9/shutterstock_1656883729.jpg"
+     },
+
+     { 
+        "name":"Thyroid Profile Test",  
+        "price": "300", 
+        "image": "https://static.toiimg.com/thumb/msid-71687435,width-1280,resizemode-4/71687435.jpg"
+     },
+
+     { 
+        "name":"Vitamin B12 test", 
+        "price": "700", 
+        "image": "https://raavi.co.in/wp-content/uploads/2022/03/Vitamin-B12.jpg"
+     },
+
+     { 
+        "name":"vitamin D test", 
+        "price": "1100", 
+        "image": "https://awamilab.com/wp-content/uploads/2022/01/vitamin-d-test.jpg"
+     }
+
+  ]   
+}

@@ -5,7 +5,9 @@ export default function Medicine(props) {
         <div className='my-3'>
             <div className="card" style={{ margin: "auto" }} id='card'>
                 <div className="d-flex justify-content-end" style={{ position: 'absolute', right: '0' }}>
-                    <span className="badge rounded-pill bg-danger" id='badge'>{props.price} &#8377;</span>
+                    <span className="badge rounded-pill bg-danger" id='badge'>
+                        <strike>{props.price} &#8377;</strike> &nbsp;&nbsp;{(props.price - props.price/5).toFixed(2)} &#8377;
+                    </span>
                 </div>
                 <img src={props.image} className="card-img-top" alt="..." style={{height:'30vh',width: '15vw'}}/>
                 <div className="card-bod y">

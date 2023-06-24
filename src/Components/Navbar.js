@@ -1,13 +1,19 @@
-import React from 'react'
-import {Link} from "react-router-dom";
+import { React, useState } from 'react'
+import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 export default function Navbar() {
 
-    const moveToDown = ()=>{
-        window.scrollTo (0, document.body.scrollHeight);
+    // Scrolling Mechanism
+    const moveToDown = () => {
+        window.scrollTo(0, document.body.scrollHeight);
     }
-    const moveToTop = ()=>{
-        window.scrollTo (0,0);
+    const moveToTop = () => {
+        window.scrollTo(0, 0);
     }
+
+    // Authentication using auth0
+    const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
+
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary nav-pills" >
@@ -22,16 +28,26 @@ export default function Navbar() {
                                 <Link className="nav-Link" aria-current="page" to="/home" onClick={moveToTop}>Home</Link>
                             </li>
                             <li className="nav-item mx-3">
-                            <Link className="nav-Link" aria-current="page" to="/medicines" onClick={moveToTop}>Medicines</Link>
+                                <Link className="nav-Link" aria-current="page" to="/medicines" onClick={moveToTop}>Medicines</Link>
                             </li>
-                            <li className="nav-item mx-3">Lab Test</li>
-                            <li className="nav-item mx-3">Chat Bot</li>
+                            <li className="nav-item mx-3">
+                            <Link className="nav-Link" aria-current="page" to="/labtest" onClick={moveToTop}>Lab Test</Link>
+                            </li>
+                            <li className="nav-item mx-3">
+                                <Link className="nav-Link" aria-current="page" to="/chatbot" onClick={moveToTop}>Chat Bot</Link>
+
+                            </li>
                             <li className="nav-item mx-3">Prescription</li>
                             <li className="nav-item mx-3">About Us</li>
                             <li className="nav-item mx-3" onClick={moveToDown}>Contact Us</li>
-                            <li className="nav-item mx-3"> 
-                            <Link className="nav-Link active btn btn-active" aria-current="page" to="/login">Log In</Link>
-                            </li>
+                            {!isAuthenticated ?
+                                <li className="nav-item mx-3" onClick={() => loginWithRedirect()}>Log In</li>
+                                :
+                                <>
+                                    <li className="nav-item mx-3" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</li>
+                                    <Link className="nav-Link" aria-current="page" to="/profile" onClick={moveToTop}><span>{user.name}</span><i className="fa-solid fa-user"></i></Link>
+                                </>
+                            }
                         </ul>
                     </div>
                 </div>

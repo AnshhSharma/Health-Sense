@@ -1,16 +1,15 @@
 import React, { useState } from 'react'
-import homeBG1 from '../media/homebg1.jpg'
-import doctor from '../media/doc1.png'
-import Medicines from './Medicines';
+import doctor from '../media/Home/doc1.png'
 import Reviews from './Reviews';
+import { useAuth0 } from "@auth0/auth0-react";
 import {
     Link
 } from "react-router-dom";
 
 
 export default function Home() {
-    const [loginSignup, setLoginSignup] = useState(0)
-
+    const {loginWithRedirect, user, isAuthenticated } = useAuth0();
+    document.title = 'Health Sense - HOME';
     return (
         // <div className='container d-flex flex-column'>
         //     <img style={{ width: "100%", height: "50vh" }} src={homeBG1} />            
@@ -23,47 +22,50 @@ export default function Home() {
                 <h1 className="display-4">HEALTH SENSE</h1>
                 <p className="lead">Your One-Stop Shop for Medicines, Lab Tests, and Prescription Services at Unbeatable Prices.</p>
                 <hr className="my-4" />
-                <p>Join us today by having an account with us.</p>
-                <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Sign Up</a>
-                </p>
+                {isAuthenticated? <></>: <>
+                    <p>Join us today by having an account with us.</p>
+                    <p className="lead">
+                        <button className="btn btn-primary btn-lg" role="button " onClick={() => loginWithRedirect()}>Sign Up</button>
+                    </p>
+                </>}
+                
             </div>
             <div className='container'>
                 <div className="services">
                     <div className="card-group">
                         <div className="card service">
-                        <i className="fa-solid fa-user-doctor fa-xl" />
+                            <i className="fa-solid fa-user-doctor fa-xl" />
                             <div className="card-body">
                                 <h5 className="card-title">Expert's Advice</h5>
                                 <p className="card-text">
-                                We prioritize the well-being and satisfaction of our patients. Our dedicated team focuses on delivering personalized care, actively listening to your concerns, and tailoring our services to meet your unique requirements, ensuring a positive and supportive healthcare experience.
+                                    We prioritize the well-being and satisfaction of our patients. Our dedicated team focuses on delivering personalized care, actively listening to your concerns, and tailoring our services to meet your unique requirements, ensuring a positive and supportive healthcare experience.
                                 </p>
                             </div>
                         </div>
                         <div className="card service">
-                        <i className="fa-regular fa-file-lines fa-xl"/>
+                            <i className="fa-regular fa-file-lines fa-xl" />
                             <div className="card-body">
                                 <h5 className="card-title">Faster Test Results</h5>
                                 <p className="card-text">
-                                Our advanced laboratory facility is equipped with cutting-edge technology, enabling accurate and timely test results. From routine blood work to specialized diagnostics, our lab testing services provide crucial insights to aid in diagnosis, monitoring, and treatment.
+                                    Our advanced laboratory facility is equipped with cutting-edge technology, enabling accurate and timely test results. From routine blood work to specialized diagnostics, our lab testing services provide crucial insights to aid in diagnosis, monitoring, and treatment.
                                 </p>
                             </div>
                         </div>
                         <div className="card service">
-                        <i className="fa-solid fa-lock fa-xl"/>
+                            <i className="fa-solid fa-lock fa-xl" />
                             <div className="card-body">
                                 <h5 className="card-title">Confidentiality and Privacy</h5>
                                 <p className="card-text">
-                                We understand the importance of confidentiality when it comes to healthcare. Our company upholds strict privacy standards to protect your sensitive information and maintains a secure environment where you can confidently share your medical history and prescriptions.
+                                    We understand the importance of confidentiality when it comes to healthcare. Our company upholds strict privacy standards to protect your sensitive information and maintains a secure environment where you can confidently share your medical history and prescriptions.
                                 </p>
                             </div>
                         </div>
                         <div className="card service">
-                        <i className="fa-solid fa-cubes-stacked fa-xl" />
+                            <i className="fa-solid fa-cubes-stacked fa-xl" />
                             <div className="card-body">
                                 <h5 className="card-title">Extensive Medication Selection</h5>
                                 <p className="card-text">
-                                Our medical store boasts a wide variety of medications, including prescription and over-the-counter options. We ensure that you have access to a comprehensive range of pharmaceutical products to meet your specific healthcare needs.
+                                    Our medical store boasts a wide variety of medications, including prescription and over-the-counter options. We ensure that you have access to a comprehensive range of pharmaceutical products to meet your specific healthcare needs.
                                 </p>
                             </div>
                         </div>
@@ -82,8 +84,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Reviews/>
-            
+            <Reviews />
+
         </>
     )
 }
