@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import doctor from '../media/Home/doc1.png'
 import Reviews from './Reviews';
 import { useAuth0 } from "@auth0/auth0-react";
@@ -8,7 +8,7 @@ import {
 
 
 export default function Home() {
-    const {loginWithRedirect, user, isAuthenticated } = useAuth0();
+    const {loginWithRedirect, isAuthenticated } = useAuth0();
     document.title = 'Health Sense - HOME';
     return (
         // <div className='container d-flex flex-column'>
@@ -17,7 +17,7 @@ export default function Home() {
 
         // </div>
         <>
-            <img src={doctor} className='docBgImg' />
+            <img src={doctor} alt="Image"className='docBgImg' />
             <div className="jumbotron d-flex justify-content-around flex-column top-1" >
                 <h1 className="display-4">HEALTH SENSE</h1>
                 <p className="lead">Your One-Stop Shop for Medicines, Lab Tests, and Prescription Services at Unbeatable Prices.</p>
@@ -25,7 +25,7 @@ export default function Home() {
                 {isAuthenticated? <></>: <>
                     <p>Join us today by having an account with us.</p>
                     <p className="lead">
-                        <button className="btn btn-primary btn-lg" role="button " onClick={() => loginWithRedirect()}>Sign Up</button>
+                        <button className="btn btn-primary btn-lg"onClick={() => loginWithRedirect()}>Sign Up</button>
                     </p>
                 </>}
                 

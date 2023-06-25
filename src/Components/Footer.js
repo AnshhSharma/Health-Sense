@@ -30,19 +30,19 @@ export default function Footer() {
                                 </p>
                                 <div className="mt-4">
                                     {/* Facebook */}
-                                    <a type="button" className="btn btn-floating btn-warning btn-md mx-2">
+                                    <a href = "/" type="button" className="btn btn-floating btn-warning btn-md mx-2">
                                         <i className="fab fa-facebook-f" />
                                     </a>
                                     {/* Dribbble */}
-                                    <a type="button" className="btn btn-floating btn-warning btn-md mx-2">
+                                    <a href = "/" type="button" className="btn btn-floating btn-warning btn-md mx-2">
                                         <i className="fab fa-dribbble" />
                                     </a>
                                     {/* Twitter */}
-                                    <a type="button" className="btn btn-floating btn-warning btn-md mx-2">
+                                    <a href = "/" type="button" className="btn btn-floating btn-warning btn-md mx-2">
                                         <i className="fab fa-twitter" />
                                     </a>
                                     {/* Google + */}
-                                    <a type="button" className="btn btn-floating btn-warning btn-md mx-2">
+                                    <a href = "/" type="button" className="btn btn-floating btn-warning btn-md mx-2">
                                         <i className="fab fa-google-plus-g" />
                                     </a>
                                     {/* Linkedin */}

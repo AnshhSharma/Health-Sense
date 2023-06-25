@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React} from 'react'
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 export default function Navbar() {
@@ -45,11 +45,11 @@ export default function Navbar() {
                             <div style={{position: 'absolute', right: '25px'}}>
 
                             {!isAuthenticated ?
-                                <button className="btn btn-primary mx-3" role="button" onClick={() => loginWithRedirect()}>Log In</button>
+                                <button className="btn btn-primary mx-3"  onClick={() => loginWithRedirect()}>Log In</button>
                                 :
                                 <>
                                     <Link className="nav-Link my-2 my-sm-0" aria-current="page" to="/profile" onClick={moveToTop}><span>{user.name}</span><i className="fa-solid fa-user" style={{marginLeft: '5px'}}></i></Link>
-                                    <button className="btn btn-primary mx-3 my-2 my-sm-0" role="button" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
+                                    <button className="btn btn-primary mx-3 my-2 my-sm-0"  onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
                                 </>
                             }
                             </div>

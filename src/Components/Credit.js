@@ -4,7 +4,7 @@ export default function Credit(props) {
     return (
         <div className="our-team">
             <div className="picture">
-                <img
+                <img alt="image"
                     className="img-fluid"
                     src={props.image}
                 />
@@ -19,6 +19,7 @@ export default function Credit(props) {
                         className="fa fa-linkedin"
                         aria-hidden="true"
                         target='_blank'
+                        rel="noreferrer"
                     />
                 </li>
                 <li>
@@ -27,6 +28,7 @@ export default function Credit(props) {
                         className="fa-brands fa-github"
                         aria-hidden="true"
                         target='_blank'
+                        rel="noreferrer"
                     />
                 </li>
                 <li>
@@ -35,6 +37,7 @@ export default function Credit(props) {
                         className="fa-brands fa-instagram"
                         aria-hidden="true"
                         target='_blank'
+                        rel="noreferrer"
                     />
                 </li>
             </ul>

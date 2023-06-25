@@ -23,7 +23,7 @@ export default function ChatBot(props) {
     };
 
     checkKeyStatus();
-  }, []);
+  },);
   return (
     <>
       <div className='chatBot-container'>
@@ -31,9 +31,9 @@ export default function ChatBot(props) {
         {isAuthenticated?
         <>
           {isKey1Working ?
-            (<iframe className='chatBot' src={chatBotUrl_1} />)
+            (<iframe className='chatBot' src={chatBotUrl_1} title='ChatBot' />)
             :
-            (<iframe className='chatBot' src={chatBotUrl_2} />)
+            (<iframe className='chatBot' src={chatBotUrl_2} title='ChatBot' />)
           }
         </> 
         :
