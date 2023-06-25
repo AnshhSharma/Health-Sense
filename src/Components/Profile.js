@@ -8,6 +8,7 @@ const Profile = () => {
     return <div>Loading ...</div>;
   }
   console.log(user);
+  document.title = 'Health Sense - User Profile';
   return (
     isAuthenticated && (
       <div className="container d-flex justify-content-center align-items-center flex-column" style={{height: '79.9vh'}}>

@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Test from './Test'
 export default function LabTest() {
-
+    document.title = 'Health Sense - Lab Test';
     return (
         <>
             <div className="lab-header" style={{ marginTop: '7.5vh' }}>

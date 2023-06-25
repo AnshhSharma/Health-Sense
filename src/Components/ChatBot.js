@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuth0 } from "@auth0/auth0-react";
 
 export default function ChatBot(props) {
+  document.title = 'Health Sense - Chat Bot';
   const { isAuthenticated } = useAuth0();
   const chatBotUrl_1 = `https://webchat.botframework.com/embed/healthbot1234-bot?s=${props.key1}`
   const chatBotUrl_2 = `https://webchat.botframework.com/embed/healthbot1234-bot?s=${props.key2}`

@@ -2,6 +2,7 @@ import React from 'react'
 import Credit from './Credit'
 // import bg1 from '../media/About/about_bg.png'
 export default function About() {
+    document.title = 'Health Sense - About';
     return (
         <div className='about-container'>
             <div className="about-header">

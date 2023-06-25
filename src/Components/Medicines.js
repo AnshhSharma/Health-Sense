@@ -2,6 +2,7 @@ import React from 'react'
 import medicineData from '../medicine.json'
 import Medicine from './Medicine'
 export default function Medicines() {
+  document.title = 'Health Sense - Medicines';
   console.log(medicineData.medicine)
   return (
     <div className='container'>
