@@ -48,7 +48,6 @@ i {
     opacity: 0;
   }
 }
-
 .services {
   display: flex;
   align-items: center;
@@ -181,7 +180,9 @@ i {
   justify-content: center;
   align-items: center;
   margin: 7.8vh auto;
+  
 }
+
 .chatBot {
   border: 2px solid rgb(120, 111, 111);
   border-radius: 5px;

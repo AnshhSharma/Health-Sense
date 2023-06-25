@@ -42,14 +42,17 @@ export default function Navbar() {
                                 <Link className="nav-Link" aria-current="page" to="/about" onClick={moveToTop}>About Us</Link>
                             </li>
                             <li className="nav-item mx-3" onClick={moveToDown}>Contact Us</li>
+                            <div style={{position: 'absolute', right: '25px'}}>
+
                             {!isAuthenticated ?
-                                <button className="btn btn-primary mx-3" role="button " onClick={() => loginWithRedirect()}>Log In</button>
+                                <button className="btn btn-primary mx-3" role="button" onClick={() => loginWithRedirect()}>Log In</button>
                                 :
                                 <>
-                                    <button className="btn btn-primary mx-3" role="button " onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
-                                    <Link className="nav-Link" aria-current="page" to="/profile" onClick={moveToTop}><span>{user.name}</span><i className="fa-solid fa-user"></i></Link>
+                                    <Link className="nav-Link my-2 my-sm-0" aria-current="page" to="/profile" onClick={moveToTop}><span>{user.name}</span><i className="fa-solid fa-user" style={{marginLeft: '5px'}}></i></Link>
+                                    <button className="btn btn-primary mx-3 my-2 my-sm-0" role="button" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
                                 </>
                             }
+                            </div>
                         </ul>
                     </div>
                 </div>
