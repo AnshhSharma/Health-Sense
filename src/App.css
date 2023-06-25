@@ -8,7 +8,7 @@
 }
 .nav-Link:hover,
 .navbar-brand:hover,
-.nav-item:hover {
+.nav-item:hover, .offer h2 {
   /* font-size:large; */
   font-weight: bolder;
 }

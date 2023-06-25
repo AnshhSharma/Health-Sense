@@ -41,8 +41,8 @@ export default function About() {
                 <span className='about-content-heading'>Website Owners:</span>
                 <div className="owners-container">
                         <Credit name='Ansh Sharma' linkedinUrl = 'https://www.linkedin.com/in/ansh-sharma-/' instaUrl = 'https://www.instagram.com/anshh_sharma/' githubUrl = 'https://github.com/AnshhSharma' image = 'https://avatars.githubusercontent.com/u/84542011?v=4'/>
-                        <Credit name='Yash Goyal'/>
-                        <Credit name='Sagar Tarachandani'/>
+                        <Credit name='Yash Goyal' githubUrl = 'https://github.com/Yash2025' instaUrl = 'https://www.instagram.com/yash.goyal_1401/' linkedinUrl = 'https://www.linkedin.com/in/yash-goyal-a7803821b/'image = 'https://avatars.githubusercontent.com/u/131938756?v=4'/>
+                        <Credit name='Sagar Tarachandani' githubUrl = 'https://github.com/Sagartarachandani' instaUrl = 'https://www.instagram.com/sagar_tarachandani/' linkedinUrl = 'https://www.linkedin.com/in/sagar-tarachandani-7aa683219/' image = 'https://avatars.githubusercontent.com/u/131880535?v=4'/>
                 </div>
             </div>
         </div>
