@@ -1,24 +1,28 @@
-.nav-Link, .navbar-brand, .nav-item{
+.nav-Link,
+.navbar-brand,
+.nav-item {
   text-decoration: none;
   color: black;
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
 }
-.nav-Link:hover, .navbar-brand:hover, .nav-item:hover{
+.nav-Link:hover,
+.navbar-brand:hover,
+.nav-item:hover {
   /* font-size:large; */
   font-weight: bolder;
 }
 
-.discount{
+.discount {
   cursor: pointer;
 }
-.container{
+.container {
   width: 80%;
   margin: 10vh auto;
-  /* border: 2px solid black; */ 
+  /* border: 2px solid black; */
 }
-.offers{
-  border: 1px solid black; 
+.offers {
+  border: 1px solid black;
   border-radius: 10px;
   height: 40vh;
   display: flex;
@@ -26,14 +30,14 @@
   justify-content: space-around;
   /* align-items: center; */
 }
-.offer{
+.offer {
   width: fit-content;
-  margin:auto;
+  margin: auto;
 }
-i{
+i {
   margin-left: 25px;
 }
-.blinker{
+.blinker {
   color: red;
   font-size: medium;
   animation: blinker 2s linear infinite;
@@ -45,34 +49,33 @@ i{
   }
 }
 
-.services{
+.services {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.service{
+.service {
   width: 96vw;
 }
-.card-group{
+.card-group {
   /* width: 96vw; */
   margin-bottom: 4vh;
 }
 
-.service i{
+.service i {
   width: fit-content;
   margin: 20px auto;
-
 }
 
-.docBgImg{
+.docBgImg {
   width: 10vw;
   height: 20vh;
-  position:absolute;
+  position: absolute;
   right: 170px;
   top: 60px;
 }
-.top-1{
+.top-1 {
   margin-top: 7vh;
   padding-top: 2vw;
   padding-left: 2vw;
@@ -82,21 +85,21 @@ i{
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
-.reviews{
+.reviews {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.reviews-heading{
+.reviews-heading {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 .snip1533 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   color: #9e9e9e;
   display: inline-block;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   margin: 35px 10px 10px;
   max-width: 310px;
@@ -129,7 +132,7 @@ i{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: #d2652d;
   content: "\f10e";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 32px;
   font-style: normal;
   left: 50%;
@@ -159,17 +162,17 @@ i{
   margin: 0 0 20px;
 }
 
-.tests{
+.tests {
   border: 2px solid black;
   border-radius: 5px;
   margin: 5vh 10vw;
   width: 80vw;
 }
-.tests h3{
+.tests h3 {
   width: fit-content;
   margin: 10px auto;
 }
-.chatBot-container{
+.chatBot-container {
   border: 2px solid black;
   width: 80%;
   height: 90vh;
@@ -179,12 +182,74 @@ i{
   align-items: center;
   margin: 7.8vh auto;
 }
-.chatBot{
+.chatBot {
   border: 2px solid rgb(120, 111, 111);
   border-radius: 5px;
   margin-top: 10vh;
   margin-bottom: 5vh;
   height: 60vh;
   width: 60vw;
+}
+
+.about-container {
+  margin-top: 7.6vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-header {
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #e5e5f7 10px
+    ),
+    repeating-linear-gradient(#c0c1ce55, #c0c1ce);
+    margin-bottom: 25px;
+    display: flex;
+}
+.about-header-headings {
+  margin: 10vh 0 10vh 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.about-heading-1 {
+  font-weight: bold;
+  font-size: 300%;
+}
+.about-heading-2 {
+  font-weight: bold;
+  font-size: 230%;
+}
+
+.about-content-heading{
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 25px;
+}
+.about-content{
+  height:fit-content;
+}
+.about-content-cards{
+  margin-top: 25px;
+  display: flex;
+  justify-content:space-evenly;
+}
+.about-card{
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.owners-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10vh;
 
 }

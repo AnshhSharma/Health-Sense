@@ -37,8 +37,10 @@ export default function Navbar() {
                                 <Link className="nav-Link" aria-current="page" to="/chatbot" onClick={moveToTop}>Chat Bot</Link>
 
                             </li>
-                            <li className="nav-item mx-3">Prescription</li>
-                            <li className="nav-item mx-3">About Us</li>
+                            {/* <li className="nav-item mx-3">Prescription</li> */}
+                            <li className="nav-item mx-3">
+                                <Link className="nav-Link" aria-current="page" to="/about" onClick={moveToTop}>About Us</Link>
+                            </li>
                             <li className="nav-item mx-3" onClick={moveToDown}>Contact Us</li>
                             {!isAuthenticated ?
                                 <button className="btn btn-primary mx-3" role="button " onClick={() => loginWithRedirect()}>Log In</button>
