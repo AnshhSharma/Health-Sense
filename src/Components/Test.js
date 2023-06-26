@@ -9,7 +9,7 @@ export default function Test(props) {
                         <strike>{props.price} &#8377;</strike> &nbsp;&nbsp;{(props.price - props.price/20).toFixed(2)} &#8377;
                     </span>
                 </div>
-                <img src={props.image} className="card-img-top" alt="..." style={{height:'30vh',width: '100%'}}/>
+                <img src={props.image} className="card-img-top" alt={props.image} style={{height:'30vh',width: '100%'}}/>
                 <div className="card-bod y">
                     <h5 className="card-title">{props.name}</h5>
                 </div>

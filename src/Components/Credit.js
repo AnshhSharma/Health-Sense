@@ -4,7 +4,7 @@ export default function Credit(props) {
     return (
         <div className="our-team">
             <div className="picture">
-                <img alt="image"
+                <img alt={props.name}
                     className="img-fluid"
                     src={props.image}
                 />

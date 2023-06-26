@@ -17,7 +17,7 @@ export default function Home() {
 
         // </div>
         <>
-            <img src={doctor} alt="Image"className='docBgImg' />
+            <img src={doctor} alt="doc-animated"className='docBgImg' />
             <div className="jumbotron d-flex justify-content-around flex-column top-1" >
                 <h1 className="display-4">HEALTH SENSE</h1>
                 <p className="lead">Your One-Stop Shop for Medicines, Lab Tests, and Prescription Services at Unbeatable Prices.</p>

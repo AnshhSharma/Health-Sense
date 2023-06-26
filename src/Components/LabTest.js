@@ -14,20 +14,20 @@ export default function LabTest() {
             <div className="lab-header" style={{ marginTop: '7.5vh' }}>
                 <Carousel autoPlay={true} infiniteLoop={true} stopOnHover showStatus={false} showThumbs={false}>
                     <div>
-                        <img alt = "An Image" src={lab1} />
+                        <img alt = "Crousel 1" src={lab1} />
                     </div>
                     <div>
-                        <img alt = "An Image" src={lab2} />
+                        <img alt = "Crousel 2" src={lab2} />
                     </div>
                     <div>
-                        <img alt = "An Image" src={lab3} />
+                        <img alt = "Crousel 3" src={lab3} />
                     </div>
                 </Carousel>
             </div>
             <div className="services" style={{ margin: '5vh 25vw' }}>
                 <div className="card-group">
                     <div className="card service">
-                        <img alt = "An Image" src='https://images.apollo247.in/images/ic_prescriptiontest.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
+                        <img alt = "card 1" src='https://images.apollo247.in/images/ic_prescriptiontest.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
 
                         <div className="card-body">
                             <h5 className="card-title" style={{ textAlign: 'center' }}>Free Report Analyzer</h5>
@@ -37,7 +37,7 @@ export default function LabTest() {
                         </div>
                     </div>
                     <div className="card service">
-                        <img alt = "An Image" src='https://images.apollo247.in/images/ic_surface.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
+                        <img alt = "card 2" src='https://images.apollo247.in/images/ic_surface.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
 
                         <div className="card-body">
                             <h5 className="card-title" style={{ textAlign: 'center' }}>5 Million Tests Annually</h5>
@@ -47,7 +47,7 @@ export default function LabTest() {
                         </div>
                     </div>
                     <div className="card service">
-                        <img alt = "An Image" src='https://images.apollo247.in/images/ic_laboratories.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
+                        <img alt = "card 3" src='https://images.apollo247.in/images/ic_laboratories.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
                         <div className="card-body">
                             <h5 className="card-title" style={{ textAlign: 'center' }}>120+ laboratories</h5>
                             <p className="card-text">
@@ -56,7 +56,7 @@ export default function LabTest() {
                         </div>
                     </div>
                     <div className="card service">
-                        <img alt = "An Image" src='https://images.apollo247.in/images/ic_legacy.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
+                        <img alt = "card 4" src='https://images.apollo247.in/images/ic_legacy.png' style={{ width: '40px', height: '40px', margin: '20px auto' }} />
 
                         <div className="card-body">
                             <h5 className="card-title" style={{ textAlign: 'center' }}>20 years of Legacy</h5>

@@ -9,7 +9,7 @@ export default function Medicine(props) {
                         <strike>{props.price} &#8377;</strike> &nbsp;&nbsp;{(props.price - props.price/5).toFixed(2)} &#8377;
                     </span>
                 </div>
-                <img src={props.image} className="card-img-top" alt="..." style={{height:'30vh',width: '15vw'}}/>
+                <img src={props.image} className="card-img-top" alt={props.image} style={{height:'30vh',width: '15vw'}}/>
                 <div className="card-bod y">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">{props.desc}</p>
