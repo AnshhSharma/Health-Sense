@@ -52,7 +52,7 @@ export default function Footer() {
                             {/*Grid column*/}
                             <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
                                 <h5 className="text-uppercase mb-4" style={{ textAlign: 'center' }}>Opening hours</h5>
-                                <table className="table text-center text-white">
+                                <table className="table table-dark text-center text-white ">
                                     <tbody className="font-weight-normal">
                                         <tr>
                                             <td>Mon - Thu:</td>

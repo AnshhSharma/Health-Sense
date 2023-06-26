@@ -10,7 +10,7 @@ export default function Medicine(props) {
                     </span>
                 </div>
                 <img src={props.image} className="card-img-top" alt={props.image} style={{height:'30vh',width: '15vw'}}/>
-                <div className="card-bod y">
+                <div className="card-bod mx-3 my-3">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">{props.desc}</p>
                     {/* <a href={newsUrl} className="btn btn-sm btn-primary" target='0'>Read More</a> */}

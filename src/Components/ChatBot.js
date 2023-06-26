@@ -37,7 +37,7 @@ export default function ChatBot(props) {
           }
         </> 
         :
-        <div>
+        <div className='chatBot'>
           <>You must be logged in to access the Health-Sense Chat Bot</>
         </div>
           }
